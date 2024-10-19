@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+.header {
+  height: 65px;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px solid rgb(223, 216, 216);
+}
+
+.header a {
+  text-decoration: none; /* This removes the underline */
+}
+
+.fnt {
+  font-family: "DM Serif Display", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  padding-left: 20px;
+  color: black;
+}
+
+.input {
+  width: 600px; /* Adjust width to fit well in the center */
+  height: 30px; /* Reduced height */
+  padding: 5px; /* Add padding for better appearance */
+  border-radius: 10px;
+  background-color: #ededed;
+  text-align: center;
+  border: 1px solid #ededed; /* Set border color */
+  box-shadow: none; /* Remove any default box-shadow */
+  border-style: solid; /* Ensure solid border on all sides */
+  margin-top: 10px;
+}
+
+.btnClass {
+  background: linear-gradient(
+    to right,
+    #f24738,
+    #bf3f3f
+  ); /* Set background color */
+  height: 40px;
+  border-radius: 40px;
+  width: 90px;
+  color: #f2f2f2; /* Text color */
+  border: 1px solid #f24738; /* Set border color to match the background */
+  box-shadow: none; /* Remove any 3D effect or shadow */
+  border-style: solid; /* Ensure solid border style */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.btnClass:active {
+  transform: scale(0.98); /* Slight press effect on click */
+}
+.navEle {
+  display: flex;
+  gap: 20px;
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: bold;
+  color: #d4d1d1;
+}

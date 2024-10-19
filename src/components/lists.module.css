@@ -1,0 +1,40 @@
+/* StockInfoComponent.css */
+.stockinfocontainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  background-color: #1a1616;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for entire container */
+  margin-top: -540px;
+  margin-left: 550px;
+}
+
+.stockinfobox {
+  padding: 7px;
+  border-radius: 12px;
+  background-color: #d8d8d8;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.stocksymbol {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(9, 9, 9);
+  margin-bottom: 10px;
+}
+
+.stockperatio,
+.stockmarketcap,
+.stockpercentagechange {
+  font-size: 16px;
+  color: #2a2727;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.box {
+  width: 100px;
+}

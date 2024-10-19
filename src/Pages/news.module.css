@@ -1,0 +1,68 @@
+.newscontainer {
+  display: flex;
+  flex-direction: column; /* Arrange articles vertically */
+  gap: 20px; /* Add space between articles */
+  max-width: 400px; /* Set maximum width */
+  height: 400px; /* Set a fixed height for the container */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Add padding around the container */
+  background-color: white; /* Dark background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  overflow-y: auto; /* Enable vertical scroll */
+  scrollbar-width: thin; /* For Firefox: thin scrollbar */
+  scrollbar-color: #e3e1e1 #8a8a8a; /* Custom scrollbar colors for Firefox */
+  margin-top: -500px;
+  margin-right: 400px;
+}
+
+.newscontainer::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.newscontainer::-webkit-scrollbar-track {
+  background: #8d8989; /* Track color */
+}
+
+.newscontainer::-webkit-scrollbar-thumb {
+  background-color: #888; /* Scrollbar thumb color */
+  border-radius: 8px; /* Rounded edges */
+}
+
+.newsbox {
+  background-color: #efefef; /* Darker background for news boxes */
+  background-color: #efefef; /* Darker background for news boxes */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Padding inside news boxes */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.newsbox:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.newslink {
+  text-decoration: none; /* Remove underline from link */
+  color: #ededed; /* Custom link color */
+  font-weight: bold; /* Make the headline bold */
+}
+
+.newslink:hover {
+  text-decoration: underline; /* Underline on hover for indication */
+}
+
+.newstitle {
+  margin: 0; /* Remove default margin */
+  font-size: 1.2rem; /* Set a larger font size for titles */
+  color: #0c0c0c; /* White text color for better visibility */
+}
+
+.newsdate {
+  color: #caafaf; /* Light gray color for the date */
+  font-size: 0.9rem; /* Smaller font size for the date */
+}
+
+.date {
+  color: #9b9999;
+  font-size: 14px;
+}
