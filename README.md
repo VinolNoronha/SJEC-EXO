@@ -7,9 +7,13 @@ Viona Noronha
 
 ## Instructions on running your project
 1: git clone https://github.com/VinolNoronha/SJEC-EXO.git2
+<br/>
 2: Navigate to the project directory cd SJEC-EXO
+<br/>
 3: Install the dependencies npm i
+<br/>
 4: Install additional packages for React Router and React Plot:  npm install react-router-dom react-plotly.js
+<br/>
 5. Run the development server: npm run dev
 
 
