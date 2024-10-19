@@ -1,10 +1,12 @@
-## College Name - Team Name
-Provide details of team members 
+## SJEC-EXO
+Vinol Noronha 
+Viona Noronha
 
 ## Problem Statement
-Provide description of which Theme and Problem statement you are attempting
+4.2 Problem Statement: Real-time equity analysis
 
 ## Instructions on running your project
-Provide detailed steps to get your project up and running, including any dependencies
+Step1: git clone https://github.com/VinolNoronha/SJEC-EXO.git
+
 
 ## References
