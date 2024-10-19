@@ -1,9 +1,10 @@
 ## SJEC-EXO
-Vinol Noronha 
-Viona Noronha
+1.Vinol Noronha 
+<br/>
+2.Viona Noronha
 
 ## Problem Statement
-4.2 Problem Statement: Real-time equity analysis
+4.2 Problem Statement: <ul> Real-time equity analysis</ul>
 
 ## Instructions on running your project
 1: git clone https://github.com/VinolNoronha/SJEC-EXO.git2
