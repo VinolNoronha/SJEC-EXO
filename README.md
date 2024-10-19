@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## SJEC-EXO
 Vinol Noronha 
 Viona Noronha
@@ -7,17 +6,15 @@ Viona Noronha
 4.2 Problem Statement: Real-time equity analysis
 
 ## Instructions on running your project
-Step1: git clone https://github.com/VinolNoronha/SJEC-EXO.git
+1: git clone https://github.com/VinolNoronha/SJEC-EXO.git2
+2: Navigate to the project directory cd SJEC-EXO
+3: Install the dependencies npm i
+4: Install additional packages for React Router and React Plot:  npm install react-router-dom react-plotly.js
+5. Run the development server: npm run dev
 
 
 ## References
+APIs: https://finnhub.io/, https://marketstack.com/
+
 =======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> 6aebab1 (Initial commit)
